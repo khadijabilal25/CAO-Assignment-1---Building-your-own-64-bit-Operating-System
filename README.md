@@ -8,7 +8,7 @@ This repository holds the source code of a 64 bit Operating System using [Youtub
 - gcc/g++ compiler e.g [MinGW](https://sourceforge.net/projects/mingw/)
 
 ## Building a Docker image:
-Open the terminal and build image using the following code
+WSL2 is required for docker to work and [this link](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package) contains the steps to follow in order to set it up. Afterwards open the terminal and build image using the following code
 >**docker build buildenv -t myos-buildenv**
 
 ## Building the image
