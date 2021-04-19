@@ -29,3 +29,6 @@ Using the tool **Qemu** we can emulate the OS but it must be added as an environ
 For example I would enter the following since qemu is in my C drive's Program Files:
 - `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "C:\Program Files\qemu"`
 
+## Running the C code
+In order to run the code, we need to connect our Visual Studio Code to a gcc/g++ compiler so that the C code compiles and runs. This [Youtube link](https://youtu.be/Ubfgi4NoTPk) shows how to install the gcc/g++ compiler MinGW and set it up so that we can run our C or C++ code.
+
