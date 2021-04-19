@@ -22,3 +22,9 @@ If there is no syntax error in the code and it still won't build, `DOCKER_BUILDK
 - `make build-x86_64`
 - To leave the build environment enter `exit` in to the terminal
 
+## Emulating the Operating System
+Using the tool **Qemu** we can emulate the OS but it must be added as an environment variable. A detailed guide on how to do this is shown in this [Youtube Video](https://youtu.be/al1cnTjeayk). Then type in to the terminal:
+>qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "enter where qemu is located"
+For example I would enter the following since qemu is in my C drive's Program Files:
+`qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "C:\Program Files\qemu"`
+
