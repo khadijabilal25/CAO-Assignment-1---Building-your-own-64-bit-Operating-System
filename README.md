@@ -1,5 +1,5 @@
 # CAO-Assignment-1---Building-your-own-64-bit-Operating-System
-This repository holds the source code of a 64 bit Operating System using [Youtube tutorial 1](https://youtu.be/FkrpUaGThTQ) and [Youtube tutorial 2](https://youtu.be/wz9CZBeXR6U) as a guide.
+This repository holds the source code of a 64 bit Operating System using [Youtube tutorial 1](https://youtu.be/FkrpUaGThTQ) and [Youtube tutorial 2](https://youtu.be/wz9CZBeXR6U) as a guide. Instead of displaying "OK" as in the tutorial, the NUST logo or NUST written in asterisks is coded and shown as the output.
 
 ## Prerequisites:
 - A code editor e.g [Visual Studio Code](https://code.visualstudio.com/download) 
