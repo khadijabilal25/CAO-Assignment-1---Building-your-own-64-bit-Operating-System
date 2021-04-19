@@ -9,6 +9,6 @@ This repository holds the source code of a 64 bit Operating System using [Youtub
 
 ## Building a Docker image:
 Open the terminal and build image using the following code
--'docker build buildenv -t myos-buildenv'
+>docker build buildenv -t myos-buildenv
 
 
