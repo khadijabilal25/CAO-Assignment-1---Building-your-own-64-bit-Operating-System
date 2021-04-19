@@ -32,3 +32,8 @@ For example I would enter the following since qemu is in my C drive's Program Fi
 ## Running the C code
 In order to run the code, we need to connect our Visual Studio Code to a gcc/g++ compiler so that the C code compiles and runs. This [Youtube link](https://youtu.be/Ubfgi4NoTPk) shows how to install the gcc/g++ compiler MinGW and set it up so that we can run our C or C++ code.
 
+## My output depicting the NUST Logo:
+![NUST](https://user-images.githubusercontent.com/66950711/115236031-4ef54400-a134-11eb-8708-65e0d983dd38.JPG)
+
+
+
