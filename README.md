@@ -14,7 +14,7 @@ Open the terminal and build image using the following code
 ## Building the image
 Linux or MacOS: **docker run --rm -it -v "$pwd":/root/env myos-buildenv**
 
-Windows (CMD): ==**docker run --rm -it -v "%cd%":/root/env myos-buildenv**==
+Windows (CMD): **docker run --rm -it -v "%cd%":/root/env myos-buildenv**
 
 Windows (PowerShell): **docker run --rm -it -v "${pwd}:/root/env" myos-buildenv**
 
