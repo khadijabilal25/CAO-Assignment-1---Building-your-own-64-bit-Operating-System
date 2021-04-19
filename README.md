@@ -18,6 +18,9 @@ Open the terminal and build image using the following code
 
 -Windows (PowerShell): `docker run --rm -it -v "${pwd}:/root/env" myos-buildenv`
 
-## x86 Architecture Build
+If there is no syntax error in the code and it still won't build, `DOCKER_BUILDKIT=0` can be added in Dockerfile to fix this. 
 
+## x86 Architecture Build
+-`make build-x86_64`
+-To leave the build environment enter `exit` in to the terminal
 
