@@ -27,5 +27,5 @@ Using the tool **Qemu** we can emulate the OS but it must be added as an environ
 >qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "enter where qemu is located"
 
 For example I would enter the following since qemu is in my C drive's Program Files:
-`qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "C:\Program Files\qemu"`
+- `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "C:\Program Files\qemu"`
 
