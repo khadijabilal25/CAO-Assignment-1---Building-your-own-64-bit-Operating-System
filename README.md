@@ -6,3 +6,9 @@ This repository holds the source code of a 64 bit Operating System using [Youtub
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Qemu](https://www.qemu.org/download/)
 - gcc/g++ compiler e.g [MinGW](https://sourceforge.net/projects/mingw/)
+
+## Building a Docker image:
+Open the terminal and build image using the following code
+-'docker build buildenv -t myos-buildenv'
+
+
